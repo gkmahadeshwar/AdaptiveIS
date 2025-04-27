@@ -2,15 +2,14 @@
 
 ## Project Overview
 
-**adaptiveIS** is a Python package for flexible and reusable **importance sampling** methods.  
-It provides tools to apply sampling strategies to both **toy datasets** and real-world **options trading (IV Surface)** data.
+**adaptiveIS** is a our Python implementation for flexible applications **importance sampling** methods.  
+It compares the following methods on both **toy datasets** and real-world **options trading (IV Surface)** data, evaluated with convergence rate and numerical stability.
 
 This project focuses on three major types of importance sampling:
 - **Vanilla Importance Sampling**: Uniform random sampling across all data points.
 - **Adaptive Importance Sampling**: Sampling based on a user-defined importance score (e.g., liquidity, premiums, spent).
 - **Sequential Importance Sampling**: Adaptive sampling across rounds, progressively updating after each round.
 
-The package allows easy plug-and-play usage for custom datasets in research and prototyping.
 
 ---
 
@@ -26,10 +25,4 @@ The package allows easy plug-and-play usage for custom datasets in research and 
 
 ## Project Structure
 
-adaptiveIS/
-├── __init__.py
-├── surface_estimation.py       
-├── importance_sampling.py       
-│
-│environment.yml              
-│README.md                     
+                
