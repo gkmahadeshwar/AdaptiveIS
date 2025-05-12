@@ -4,11 +4,6 @@ from .surface_estimation import (
     implied_volatility
 )
 
-from .importance_sampling import (
-    regular_importance_sampling,
-    adaptive_importance_sampling,
-    sequential_importance_sampling
-)
+from .iv_surface_plot import plot_iv_surface
 
-# (Later, if you add multi_dimensional sampling, put it here too.)
 # from .multidim_sampling import multi_dimensional_importance_sampling

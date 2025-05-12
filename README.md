@@ -25,11 +25,4 @@ The package allows easy plug-and-play usage for custom datasets in research and 
 ---
 
 ## Project Structure
-
-adaptiveIS/
-├── __init__.py
-├── surface_estimation.py       
-├── importance_sampling.py       
-│
-│environment.yml              
-│README.md                     
+TBD            
