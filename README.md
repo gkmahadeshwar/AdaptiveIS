@@ -22,7 +22,7 @@ This project focuses on three major types of importance sampling:
 ---
 
 ## Project Structure
-
+'''
 adaptiveIS/
 .
 ├── adaptiveIS
@@ -36,3 +36,4 @@ adaptiveIS/
 ├── plots
 ├── environment.yml
 └── README.md
+'''
