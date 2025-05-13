@@ -28,7 +28,8 @@ adaptiveIS/
 ├── adaptiveIS
 │   ├── __init__.py
 │   ├── iv_surface_plot.py
-│   └── surface_estimation.py
+│   ├── surface_estimation.py
+|   └── adaptive_sampling.ipynb
 ├── Numerical_final_presentation_GKM_JZ_FINAL.pdf
 ├── OptionTrading.csv
 ├── options_pricing_final.ipynb
